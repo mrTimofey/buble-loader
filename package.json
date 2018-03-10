@@ -27,7 +27,6 @@
     "buble": "*"
   },
   "devDependencies": {
-    "buble": "*",
     "webpack": "*"
   }
 }
