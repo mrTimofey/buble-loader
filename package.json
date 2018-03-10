@@ -23,8 +23,14 @@
     "url": "https://github.com/mrTimofey/buble-latest-loader/issues"
   },
   "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
     "buble": "*",
-    "loader-utils": "^1.1.0",
+    "webpack": "*"
+  },
+  "peerDependencies": {
+    "buble": "*",
     "webpack": "*"
   }
 }
