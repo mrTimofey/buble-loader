@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mrTimofey/buble-latest-loader.git"
+    "url": "git@github.com:mrTimofey/buble-loader.git"
   },
   "keywords": [
     "webpack",
@@ -20,16 +20,12 @@
     "loader"
   ],
   "bugs": {
-    "url": "https://github.com/mrTimofey/buble-latest-loader/issues"
+    "url": "https://github.com/mrTimofey/buble-loader/issues"
   },
   "dependencies": {
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {
-    "buble": "*",
-    "webpack": "*"
-  },
-  "peerDependencies": {
     "buble": "*",
     "webpack": "*"
   }
