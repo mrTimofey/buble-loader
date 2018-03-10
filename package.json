@@ -23,7 +23,8 @@
     "url": "https://github.com/mrTimofey/buble-loader/issues"
   },
   "dependencies": {
-    "loader-utils": "^1.1.0"
+    "loader-utils": "^1.1.0",
+    "buble": "*"
   },
   "devDependencies": {
     "buble": "*",
