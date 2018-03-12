@@ -15,7 +15,7 @@ class BubleError extends Error {
 
 module.exports = function(source) {
 	const config = loaderUtils.getOptions(this);
-	config.transforms = { ...(config.transforms || null), modules: false };
+	config.transforms = Object.assign({}, config.transforms || {}, { modules: false });
 	let output;
 	try {
 		output = buble.transform(source, config);

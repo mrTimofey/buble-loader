@@ -1,6 +1,6 @@
 {
   "name": "buble-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "buble-loader with latest Buble version, a safe replacement for abandoned buble-loader",
   "main": "index.js",
   "scripts": {
